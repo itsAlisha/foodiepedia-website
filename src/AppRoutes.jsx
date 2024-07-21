@@ -11,7 +11,7 @@ export default function AppRoutes() {
       <Route path="/search/:searchTerm" element={<HomePage />} />
       <Route path="/tag/:tag" element={<HomePage />} />
       <Route path="/food/:id" element={<FoodPage />} />
-      <Route path="/Cart" element={<CartPage />} />
+      <Route path="/cart" element={<CartPage />} />
     </Routes>
   );
 }
